@@ -1,0 +1,210 @@
+{
+  "subjects": [
+    {
+      "id": "sub_web",
+      "code": "INT1434",
+      "name": "Lập trình Web Nâng cao",
+      "slug": "lap-trinh-web-nang-cao",
+      "lecturer": "TS. Nguyễn Mạnh Hùng",
+      "credits": 3,
+      "color": "rose",
+      "description": "Xây dựng ứng dụng web hiện đại với React, Next.js, Server Components, SSR/SSG/ISR, NextAuth, RBAC và tối ưu SEO."
+    },
+    {
+      "id": "sub_ai",
+      "code": "INT1416",
+      "name": "Trí tuệ Nhân tạo",
+      "slug": "tri-tue-nhan-tao",
+      "lecturer": "PGS.TS. Lê Hoàng Sơn",
+      "credits": 3,
+      "color": "blue",
+      "description": "Nghiên cứu các thuật toán tìm kiếm A*, Minimax, Machine Learning, Deep Learning và mạng nơ-ron tích chập (CNN)."
+    },
+    {
+      "id": "sub_sec",
+      "code": "INT1445",
+      "name": "An toàn & Bảo mật HTTT",
+      "slug": "an-toan-bao-mat-httt",
+      "lecturer": "TS. Trần Văn Thao",
+      "credits": 3,
+      "color": "amber",
+      "description": "Mã hóa khóa công khai RSA/AES, chữ ký số, chứng chỉ SSL/TLS, an ninh mạng và phân tích lỗ hổng OWASP Top 10."
+    },
+    {
+      "id": "sub_arch",
+      "code": "INT1450",
+      "name": "Kiến trúc Phần mềm",
+      "slug": "kien-truc-phan-mem",
+      "lecturer": "ThS. Đỗ Thị Mai",
+      "credits": 3,
+      "color": "emerald",
+      "description": "Thiết kế kiến trúc hướng dịch vụ (SOA), Microservices, Clean Architecture, Design Patterns và CI/CD Pipeline."
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "1",
+      "title": "Báo cáo Thực hành Buổi 3: Next.js Rendering & NextAuth",
+      "subjectId": "sub_web",
+      "description": "Hoàn thiện cổng Class Deadline Hub với các chế độ render SSG, ISR, SSR, cấu hình NextAuth Credentials, RBAC matrix can() và SEO JSON-LD.",
+      "dueDate": "2026-11-05T23:59:00",
+      "priority": "urgent",
+      "tags": ["Next.js", "SSG", "ISR", "SSR", "NextAuth"],
+      "submissionType": "GitHub",
+      "completedBy": ["usr_admin"],
+      "createdAt": "2026-10-20T08:00:00"
+    },
+    {
+      "id": "2",
+      "title": "Bài tập lớn: Thiết kế hệ thống E-Commerce Microservices",
+      "subjectId": "sub_web",
+      "description": "Nộp đề cương chi tiết kiến trúc API Gateway, Auth Service, Product Service, Order Service và Docker Compose setup.",
+      "dueDate": "2026-11-12T23:59:00",
+      "priority": "high",
+      "tags": ["Microservices", "API Gateway", "BTL"],
+      "submissionType": "LMS PTIT",
+      "completedBy": [],
+      "createdAt": "2026-10-21T09:30:00"
+    },
+    {
+      "id": "3",
+      "title": "Quiz trắc nghiệm: React Server Components & Streaming",
+      "subjectId": "sub_web",
+      "description": "Bài thi trắc nghiệm 30 phút trên hệ thống LMS về kiến trúc App Router, Suspense boundary và Server Actions.",
+      "dueDate": "2026-10-25T20:00:00",
+      "priority": "medium",
+      "tags": ["Quiz", "RSC", "LMS"],
+      "submissionType": "LMS PTIT",
+      "completedBy": ["usr_sv", "usr_admin"],
+      "createdAt": "2026-10-18T10:00:00"
+    },
+    {
+      "id": "4",
+      "title": "Cài đặt thuật toán A* giải bài toán 8-Puzzle",
+      "subjectId": "sub_ai",
+      "description": "Lập trình thuật toán A* với heuristic Manhattan Distance và Misplaced Tiles bằng Python. Đo số bước và thời gian chạy.",
+      "dueDate": "2026-11-02T23:59:00",
+      "priority": "high",
+      "tags": ["A*", "Heuristic", "Python", "8-Puzzle"],
+      "submissionType": "GitHub",
+      "completedBy": [],
+      "createdAt": "2026-10-22T14:00:00"
+    },
+    {
+      "id": "5",
+      "title": "Huấn luyện mô hình CNN phân loại ảnh hoa quả",
+      "subjectId": "sub_ai",
+      "description": "Sử dụng PyTorch hoặc TensorFlow xây dựng mạng CNN phân loại tập dữ liệu Fruits-360, đạt độ chính xác tối thiểu 92% trên tập test.",
+      "dueDate": "2026-11-18T23:59:00",
+      "priority": "urgent",
+      "tags": ["CNN", "Deep Learning", "PyTorch"],
+      "submissionType": "LMS PTIT",
+      "completedBy": [],
+      "createdAt": "2026-10-23T11:00:00"
+    },
+    {
+      "id": "6",
+      "title": "Nộp báo cáo giữa kỳ: Phân tích thuật toán Alpha-Beta Pruning",
+      "subjectId": "sub_ai",
+      "description": "So sánh hiệu năng thuật toán Minimax và Alpha-Beta trong trò chơi cờ Caro 5x5, nộp file PDF kèm mã nguồn.",
+      "dueDate": "2026-11-20T17:00:00",
+      "priority": "medium",
+      "tags": ["Minimax", "Game Theory", "Alpha-Beta"],
+      "submissionType": "Email",
+      "completedBy": [],
+      "createdAt": "2026-10-24T15:20:00"
+    },
+    {
+      "id": "7",
+      "title": "Lab 1: Tấn công SQL Injection và Phòng chống bằng Prepared Statement",
+      "subjectId": "sub_sec",
+      "description": "Khai thác SQLi trên môi trường DVWA (Damn Vulnerable Web App), ghi lại payload tấn công và sửa mã nguồn bằng Parameterized Query.",
+      "dueDate": "2026-10-26T23:59:00",
+      "priority": "urgent",
+      "tags": ["Security", "SQLi", "DVWA", "OWASP"],
+      "submissionType": "GitHub",
+      "completedBy": ["usr_sv"],
+      "createdAt": "2026-10-15T09:00:00"
+    },
+    {
+      "id": "8",
+      "title": "Lab 2: Phân tích mã độc và giải mã RSA 2048-bit",
+      "subjectId": "sub_sec",
+      "description": "Thực hành sinh cặp khóa RSA, ký số văn bản số, xác thực chữ ký và phân tích lưu lượng Wireshark để giải mã gói tin TLS.",
+      "dueDate": "2026-11-08T23:59:00",
+      "priority": "high",
+      "tags": ["Cryptography", "RSA", "Wireshark", "TLS"],
+      "submissionType": "LMS PTIT",
+      "completedBy": [],
+      "createdAt": "2026-10-25T16:45:00"
+    },
+    {
+      "id": "9",
+      "title": "Tiểu luận: Nghiên cứu kỹ thuật Zero Trust Architecture",
+      "subjectId": "sub_sec",
+      "description": "Viết bài tiểu luận 15 trang đánh giá mô hình Zero Trust so với mô hình phòng thủ chu vi truyền thống trong hạ tầng Cloud.",
+      "dueDate": "2026-11-25T23:59:00",
+      "priority": "low",
+      "tags": ["Zero Trust", "Cloud Security", "Tiểu luận"],
+      "submissionType": "Google Form",
+      "completedBy": [],
+      "createdAt": "2026-10-25T17:00:00"
+    },
+    {
+      "id": "10",
+      "title": "Vẽ biểu đồ thiết kế C4 Model cho hệ thống đặt xe công nghệ",
+      "subjectId": "sub_arch",
+      "description": "Vẽ 4 cấp độ biểu đồ Context, Container, Component và Code cho ứng dụng gọi xe tương tự Grab/Gojek bằng Structurizr hoặc Draw.io.",
+      "dueDate": "2026-11-04T23:59:00",
+      "priority": "high",
+      "tags": ["C4 Model", "Software Architecture", "Diagram"],
+      "submissionType": "LMS PTIT",
+      "completedBy": [],
+      "createdAt": "2026-10-22T13:10:00"
+    },
+    {
+      "id": "11",
+      "title": "Refactoring mã nguồn áp dụng SOLID & Gang of Four Design Patterns",
+      "subjectId": "sub_arch",
+      "description": "Tái cấu trúc project legacy Java/C# bằng Factory Method, Strategy Pattern, Observer Pattern và kiểm chứng bằng Unit Test.",
+      "dueDate": "2026-11-15T23:59:00",
+      "priority": "medium",
+      "tags": ["SOLID", "Design Patterns", "Clean Code"],
+      "submissionType": "GitHub",
+      "completedBy": [],
+      "createdAt": "2026-10-24T10:15:00"
+    },
+    {
+      "id": "12",
+      "title": "Thiết kế chiến lược Caching đa tầng với Redis & CDN",
+      "subjectId": "sub_arch",
+      "description": "Xây dựng tài liệu thiết kế giải pháp Cache-Aside, Write-Through và Cache Invalidation cho bài toán Flash Sale 10.000 RPS.",
+      "dueDate": "2026-11-28T23:59:00",
+      "priority": "low",
+      "tags": ["Redis", "Caching", "High Availability"],
+      "submissionType": "Email",
+      "completedBy": [],
+      "createdAt": "2026-10-26T08:30:00"
+    }
+  ],
+  "users": [
+    {
+      "id": "usr_admin",
+      "email": "admin@ptit.edu.vn",
+      "password": "admin123",
+      "name": "Lớp trưởng PTIT (Admin)",
+      "role": "admin",
+      "studentId": "B21DCCN001",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=admin"
+    },
+    {
+      "id": "usr_sv",
+      "email": "sv@ptit.edu.vn",
+      "password": "sv123456",
+      "name": "Sinh viên PTIT",
+      "role": "user",
+      "studentId": "B21DCCN999",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=sinhvien"
+    }
+  ]
+}
